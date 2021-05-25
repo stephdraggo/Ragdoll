@@ -23,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Ragdoll/Scripts/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ragdoll/Scripts/SelectableBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ragdoll/Scripts/Collectible.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ragdoll/Scripts/Spin.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -33,6 +34,7 @@
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/SelectableBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Menu.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Spin.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sy7uoa9f6DITCiN3UJhgd54Hy1" />
@@ -83,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621833205218</updated>
       <workItem from="1621833213077" duration="5966000" />
-      <workItem from="1621907295042" duration="6828000" />
+      <workItem from="1621907295042" duration="8265000" />
     </task>
     <servers />
   </component>
