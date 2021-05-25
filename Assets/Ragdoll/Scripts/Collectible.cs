@@ -11,7 +11,7 @@ namespace Ragdoll
 
         public void AddPoints()
         {
-            GameManager.Points += points;
+            GameManager.Instance.timer += points;
             Destroy(gameObject);
         }
     }

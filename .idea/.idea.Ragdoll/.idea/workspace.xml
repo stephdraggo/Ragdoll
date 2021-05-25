@@ -20,6 +20,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Ragdoll/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ragdoll/Scripts/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ragdoll/Scripts/SelectableBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ragdoll/Scripts/Collectible.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -27,9 +28,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Select.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Points.cs" />
-      <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/SelectableBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/CamMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Collectible.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/SelectableBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Menu.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
@@ -81,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621833205218</updated>
       <workItem from="1621833213077" duration="5966000" />
-      <workItem from="1621907295042" duration="3797000" />
+      <workItem from="1621907295042" duration="6828000" />
     </task>
     <servers />
   </component>

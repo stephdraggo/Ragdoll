@@ -36,6 +36,7 @@ namespace Ragdoll
         {
             if (!selected && other.gameObject.TryGetComponent(out Collectible collectible))
             {
+                GameManager.Instance.points += (int)rigidbody.velocity.magnitude;
                 collectible.AddPoints();
             }
         }
