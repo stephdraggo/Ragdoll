@@ -32,6 +32,14 @@ namespace Ragdoll
             }
         }
 
+        private void OnCollisionEnter(Collision other)
+        {
+            if (!selected && other.gameObject.TryGetComponent(out Collectible collectible))
+            {
+                collectible.AddPoints();
+            }
+        }
+
         private void OnMouseEnter()
         {
             if (!selected && !CamMovement.Instance.hasSelected)
