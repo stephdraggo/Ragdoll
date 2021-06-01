@@ -32,7 +32,7 @@ namespace Ragdoll
             if (Input.GetKey(KeyCode.D)) x++;
             if (Input.GetKey(KeyCode.W)) z++;
             if (Input.GetKey(KeyCode.S)) z--;
-            float y = -Input.mouseScrollDelta.y;
+            float y = -Input.mouseScrollDelta.y * 2;
             return new Vector3(x, y, z) * (speed * Time.deltaTime);
         }
     }

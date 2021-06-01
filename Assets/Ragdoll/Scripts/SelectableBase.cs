@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Ragdoll
@@ -19,6 +20,13 @@ namespace Ragdoll
             rigidbody = GetComponent<Rigidbody>();
         }
 
+        private void Start()
+        {
+            mesh.material = baseMat;
+            parent = transform.parent;
+            rigidbody = GetComponent<Rigidbody>();
+        }
+
         void Update()
         {
             if (selected)
@@ -31,12 +39,26 @@ namespace Ragdoll
 
         private void OnCollisionEnter(Collision other)
         {
-            if (!selected && other.gameObject.TryGetComponent(out Collectible collectible))
+            //TryGetComponent(out Collectible collectible
+            if (!selected && other.gameObject.layer == LayerMask.NameToLayer("Collectible"))
             {
                 GameManager.Instance.points += (int)rigidbody.velocity.magnitude;
+                Collectible collectible = other.gameObject.GetComponent<Collectible>();
                 collectible.AddPoints();
             }
         }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            //TryGetComponent(out Collectible collectible
+            if (!selected && other.gameObject.layer == LayerMask.NameToLayer("Collectible"))
+            {
+                GameManager.Instance.points += (int)rigidbody.velocity.magnitude;
+                Collectible collectible = other.gameObject.GetComponent<Collectible>();
+                collectible.AddPoints();
+            }
+        }
+        
 
         private void OnMouseEnter()
         {

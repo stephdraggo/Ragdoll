@@ -31,10 +31,10 @@
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Points.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Collectible.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Spin.cs" />
-      <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/CamMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/SelectableBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/Menu.cs" />
       <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/CamMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ragdoll/Scripts/SelectableBase.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sy7uoa9f6DITCiN3UJhgd54Hy1" />
@@ -94,7 +94,8 @@
       <updated>1621833205218</updated>
       <workItem from="1621833213077" duration="5966000" />
       <workItem from="1621907295042" duration="8861000" />
-      <workItem from="1622514103431" duration="981000" />
+      <workItem from="1622514103431" duration="2538000" />
+      <workItem from="1622535204207" duration="1090000" />
     </task>
     <servers />
   </component>
